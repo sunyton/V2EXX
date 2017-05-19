@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">V2EXX</string>
+    <string-array name="node_default">
+        <item>全部</item>
+        <item>最热</item>
+        <item>技术</item>
+        <item>好玩</item>
+        <item>Apple</item>
+        <item>酷工作</item>
+        <item>交易</item>
+        <item>城市</item>
+        <item>问与答</item>
+        <item>R2</item>
+        <item>关注</item>
+        <item>最近</item>
+    </string-array>
 </resources>
