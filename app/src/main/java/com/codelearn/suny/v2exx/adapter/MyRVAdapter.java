@@ -71,7 +71,6 @@ public class MyRVAdapter extends RecyclerView.Adapter<MyRVAdapter.MyHolder> {
                 Log.i("kis", response.body().toString());
                 if (response.body().size()>0) {
                     holder.tv_comment.setText(response.body().get(0).getContent());
-//                    Log.i("图片", response.body().get(1).getMember().toString());
                     Picasso.with(mContext).load("http:" + response.body().get(0).getMember().getAvatar_mini()).into(holder.comImage);
                 } else {
                     holder.mLinearLayout.setVisibility(View.GONE);
